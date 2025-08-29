@@ -5,7 +5,7 @@ import { fetchClima } from './helpers/fetchClima'
 
 export const WheaterApi = () => {
 
-    const urlBase = 'https://api.openweathermap.org/data/2.5/weather'
+  const urlBase = 'https://api.openweathermap.org/data/2.5/weather'
   const API_KEY = '6eef996d7a86a531e3fa261920381b9c'
   const [ciudad, setCiudad] = useState('')
   const [dataClima, setdataClima] = useState(null)
