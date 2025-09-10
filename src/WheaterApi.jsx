@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { kelvinToCelsius } from './helpers/kelvinToCelsius'
 import { fetchClima } from './helpers/fetchClima'
+import { DarkMode } from './components/DarkMode'
 
 
 export const WheaterApi = () => {
@@ -29,6 +30,7 @@ export const WheaterApi = () => {
 
   return (
     <div className='container'>
+      <DarkMode />
       <h1>Aplicacion del Clima</h1>
       <form onSubmit={handleSubmit}>
         <input
