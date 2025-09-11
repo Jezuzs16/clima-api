@@ -1,9 +1,11 @@
 {
+  "main": "main.cjs",
   "name": "clima-api",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "electron .",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
