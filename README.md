@@ -30,7 +30,7 @@ The project follows a modular approach to separate logic from the interface:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/repository-name.git](https://github.com/your-username/repository-name.git)
+    git clone [https://github.com/Jezuzs16/repository-name.git](https://github.com/your-username/repository-name.git)
     ```
 2.  **Install dependencies:**
     ```bash
